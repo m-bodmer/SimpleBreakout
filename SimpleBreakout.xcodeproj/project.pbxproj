@@ -159,6 +159,7 @@
 		4977952C14E52B6E00FE6B88 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4977952B14E52B6E00FE6B88 /* HelloWorldLayer.mm */; };
 		4977952F14E52B6E00FE6B88 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4977952E14E52B6E00FE6B88 /* GLES-Render.mm */; };
 		4977953214E52B6E00FE6B88 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 4977953114E52B6E00FE6B88 /* blocks.png */; };
+		4977954414E5A96100FE6B88 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4977954314E5A96100FE6B88 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -473,6 +474,7 @@
 		4977952E14E52B6E00FE6B88 /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		4977953014E52B6E00FE6B88 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		4977953114E52B6E00FE6B88 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		4977954314E5A96100FE6B88 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -548,6 +550,7 @@
 		4977936014E52B6600FE6B88 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4977954314E5A96100FE6B88 /* ball.png */,
 				4977936114E52B6600FE6B88 /* Default.png */,
 				4977936314E52B6600FE6B88 /* fps_images.png */,
 				4977936514E52B6600FE6B88 /* Icon-72.png */,
@@ -1063,6 +1066,7 @@
 				4977937014E52B6600FE6B88 /* Icon@2x.png in Resources */,
 				4977937314E52B6600FE6B88 /* iTunesArtwork in Resources */,
 				4977953214E52B6E00FE6B88 /* blocks.png in Resources */,
+				4977954414E5A96100FE6B88 /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
