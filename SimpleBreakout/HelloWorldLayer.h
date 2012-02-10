@@ -3,7 +3,6 @@
 //  SimpleBreakout
 //
 //  Created by Marc Bodmer on 12-02-10.
-//  Copyright University of Guelph 2012. All rights reserved.
 //
 
 
@@ -22,6 +21,9 @@
     //Paddle variables
     b2Body *_paddleBody;
     b2Fixture *_paddleFixture;
+    
+    //Variables for touch
+    b2MouseJoint *_mouseJoint;
 }
 
 + (id) scene;
